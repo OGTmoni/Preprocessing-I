@@ -54,6 +54,19 @@ table {
 }
 
 html, body {
-    height: 100%;
+	height: 100%;
+	background-color: rgb(195, 0, 255);	
+}
+
+.banana(@fonts, @background){
+	font-size: @fonts ;
+	color: @background;
+}
+
+@width: 100px;
+@height: @width + 10px;
+h2 {
+ .banana(30px, red )
+  
 }
 
