@@ -182,3 +182,25 @@ a {
 hr {
   border-bottom: #15ff00 3px solid;
 }
+h5 {
+  color: #007a00;
+}
+h4 {
+  color: deeppink;
+}
+h3 {
+  border-bottom: 5px solid black;
+  color: #460546;
+}
+@media (max-width: 500px) {
+  .nav {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    border-bottom: 1px dotted black;
+    margin: 0px;
+    padding: 20px 0px;
+    text-align: center;
+  }
+}
