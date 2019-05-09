@@ -66,7 +66,61 @@ html, body {
 @width: 100px;
 @height: @width + 10px;
 h2 {
- .banana(30px, red )
+ .banana(30px, rgb(0, 255, 98) )
   
 }
 
+body{
+	font: 15px/1.5 'Merriweather', serif; 
+	max-width: 1000px;
+	padding:0;
+	margin:auto;
+	background-color:white;
+	text-shadow: 4px 4px 4px #aaa;
+}
+
+.container{
+	max-width: 800px;
+	margin: auto;
+	overflow: hidden;
+}
+header{
+	background: rgb(255, 255, 255);
+	padding-top: 30px;
+	min-height:70px;
+	border-bottom: rgb(21, 255, 0) 3px solid;
+}
+
+nav{    
+	display: flex;
+	justify-content: flex-end;
+	max-width: 100%;
+	margin-top:10px;
+	margin-bottom:20px;
+}
+
+a{
+	color: rgb(75, 6, 58);
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	margin-right: 40px;
+}
+
+.top-content-skills1{
+	justify-content: flex-start;   
+
+}
+
+.container{
+	justify-content: space-between;
+	background: rgb(235, 236, 236)
+}
+
+hr{
+	border-bottom: rgb(21, 255, 0) 3px solid;
+}
+
+@media(max-width: 500px){
+
+}

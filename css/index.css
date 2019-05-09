@@ -137,5 +137,48 @@ body {
 }
 h2 {
   font-size: 30px;
-  color: red;
+  color: #00ff62;
+}
+body {
+  font: 15px/1.5 'Merriweather', serif;
+  max-width: 1000px;
+  padding: 0;
+  margin: auto;
+  background-color: white;
+  text-shadow: 4px 4px 4px #aaa;
+}
+.container {
+  max-width: 800px;
+  margin: auto;
+  overflow: hidden;
+}
+header {
+  background: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #15ff00 3px solid;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+  max-width: 100%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+a {
+  color: #4b063a;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-right: 40px;
+}
+.top-content-skills1 {
+  justify-content: flex-start;
+}
+.container {
+  justify-content: space-between;
+  background: #ebecec;
+}
+hr {
+  border-bottom: #15ff00 3px solid;
 }
