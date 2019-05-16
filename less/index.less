@@ -29,6 +29,23 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+// Variables for color and font//
+@wisteria: #8e44ad;
+@fontSize: 24px;
+@border: 2px solid black;
+@padding: 10px;
+
+
+//mixins//
+
+.commonRules {
+	border: @border;
+	text-align: center;
+	padding: @padding;
+}
+
+
 body {
 	line-height: 1;
 }
@@ -52,6 +69,10 @@ table {
 * {
     box-sizing: border-box;
 }
+html{
+	font-size: 62.5%;
+}
+
 
 html, body {
 	height: 100%;
@@ -71,12 +92,13 @@ h2 {
 }
 
 body{
-	font: 15px/1.5 'Merriweather', serif; 
+	font-family:'Merriweather', serif; 
 	max-width: 1000px;
 	padding:0;
 	margin:auto;
 	background-color:white;
 	text-shadow: 4px 4px 4px #aaa;
+	font-size: 1.5rem;
 }
 
 .container{
@@ -89,6 +111,7 @@ header{
 	padding-top: 30px;
 	min-height:70px;
 	border-bottom: rgb(21, 255, 0) 3px solid;
+	font-size: 1.8rem;
 }
 
 nav{    
